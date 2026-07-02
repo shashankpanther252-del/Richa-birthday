@@ -318,7 +318,7 @@ function startTypewriter() {
   }
 
   // Start typing after a brief delay
-  setTimeout(typeNextChar, 600);
+  setTimeout(typeNextChar, 60);
 }
 
 /* ===== CAKE PAGE ===== */
