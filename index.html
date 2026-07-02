@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Happy Birthday Richa Mukherjee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== LOADING SCREEN ===== -->
+  <div id="loading-screen">
+    <div class="loader-heart">
+      <svg viewBox="0 0 100 100" width="80" height="80">
+        <path d="M50 88 C50 88 10 55 10 35 C10 20 25 15 35 20 C42 24 50 35 50 35 C50 35 58 24 65 20 C75 15 90 20 90 35 C90 55 50 88 50 88Z" fill="url(#heartGrad)" stroke="none"/>
+        <defs>
+          <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff6b9d"/>
+            <stop offset="100%" stop-color="#c44dff"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <div class="loader-pulse"></div>
+    </div>
+    <p class="loader-text">Crafting something special<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
+  </div>
+
+  <!-- ===== WELCOME PAGE ===== -->
+  <section id="welcome" class="page active">
+    <div class="welcome-bg">
+      <div class="floating-particle" style="--x:15%;--y:20%;--d:4s;--s:8px"></div>
+      <div class="floating-particle" style="--x:80%;--y:30%;--d:6s;--s:6px"></div>
+      <div class="floating-particle" style="--x:25%;--y:70%;--d:5s;--s:10px"></div>
+      <div class="floating-particle" style="--x:70%;--y:75%;--d:7s;--s:7px"></div>
+      <div class="floating-particle" style="--x:50%;--y:10%;--d:8s;--s:5px"></div>
+      <div class="floating-particle" style="--x:90%;--y:55%;--d:4.5s;--s:9px"></div>
+      <div class="floating-particle" style="--x:10%;--y:50%;--d:6.5s;--s:6px"></div>
+      <div class="floating-particle" style="--x:45%;--y:85%;--d:5.5s;--s:8px"></div>
+    </div>
+    <div class="welcome-content">
+      <div class="welcome-subtitle">🎉 A Special Surprise</div>
+      <h1 class="welcome-title">
+        <span class="title-line">Happy Birthday</span>
+        <span class="title-name">Richa Mukherjee</span>
+      </h1>
+      <p class="welcome-desc">From Shashank Gupta ❤️</p>
+      <div class="gift-box-container">
+        <div class="gift-box" id="giftBox">
+          <div class="gift-lid" id="giftLid">
+            <div class="lid-top"></div>
+            <div class="lid-ribbon-h"></div>
+            <div class="lid-ribbon-v"></div>
+            <div class="lid-bow"></div>
+          </div>
+          <div class="gift-body">
+            <div class="ribbon-h"></div>
+            <div class="ribbon-v"></div>
+          </div>
+          <div class="gift-glow"></div>
+        </div>
+        <p class="gift-tap-text">Tap to open your surprise</p>
+      </div>
+    </div>
+  </section>
+  <!-- ===== PHOTO GALLERY ===== -->
+  <section id="gallery" class="page">
+    <div class="gallery-bg" id="galleryBg"></div>
+    <div class="gallery-overlay"></div>
+    <div class="gallery-progress">
+      <div class="progress-bar" data-index="0"><div class="progress-fill"></div></div>
+      <div class="progress-bar" data-index="1"><div class="progress-fill"></div></div>
+      <div class="progress-bar" data-index="2"><div class="progress-fill"></div></div>
+      <div class="progress-bar" data-index="3"><div class="progress-fill"></div></div>
+    </div>
+    <div class="gallery-container">
+      <div class="gallery-slide active" data-index="0">
+        <img src="photos/photo1.jpg" alt="Memory 1" class="gallery-img">
+      </div>
+      <div class="gallery-slide" data-index="1">
+        <img src="photos/photo2.jpg" alt="Memory 2" class="gallery-img">
+      </div>
+      <div class="gallery-slide" data-index="2">
+        <img src="photos/photo3.jpg" alt="Memory 3" class="gallery-img">
+      </div>
+      <div class="gallery-slide" data-index="3">
+        <img src="photos/photo4.jpg" alt="Memory 4" class="gallery-img">
+      </div>
+      <div class="gallery-nav" id="galleryPrev">&#10094;</div>
+      <div class="gallery-nav gallery-next" id="galleryNext">&#10095;</div>
+    </div>
+    <div class="gallery-counter"><span id="galleryCurrent">1</span> / 4</div>
+  </section>
+
+  <!-- ===== LETTER PAGE ===== -->
+  <section id="letter" class="page">
+    <div class="letter-bg">
+      <div class="letter-particle" style="--x:20%;--y:15%;--d:5s;--s:6px;--c:rgba(255,107,157,0.3)"></div>
+      <div class="letter-particle" style="--x:80%;--y:25%;--d:7s;--s:8px;--c:rgba(196,77,255,0.3)"></div>
+      <div class="letter-particle" style="--x:15%;--y:75%;--d:6s;--s:5px;--c:rgba(255,215,0,0.2)"></div>
+      <div class="letter-particle" style="--x:85%;--y:80%;--d:4s;--s:7px;--c:rgba(255,107,157,0.3)"></div>
+      <div class="letter-particle" style="--x:50%;--y:90%;--d:8s;--s:6px;--c:rgba(196,77,255,0.2)"></div>
+    </div>
+    <div class="letter-card">
+      <div class="letter-header">
+        <span class="letter-icon">💌</span>
+        <h2>A Special Message</h2>
+      </div>
+      <div class="letter-body" id="letterBody"></div>
+      <div class="letter-footer">
+        <span class="letter-cursor" id="letterCursor">|</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CAKE PAGE ===== -->
+  <section id="cake" class="page">
+    <div class="cake-bg">
+      <div class="cake-particle" style="--x:10%;--y:20%;--d:6s;--s:4px"></div>
+      <div class="cake-particle" style="--x:90%;--y:30%;--d:8s;--s:5px"></div>
+      <div class="cake-particle" style="--x:20%;--y:70%;--d:5s;--s:3px"></div>
+      <div class="cake-particle" style="--x:80%;--y:80%;--d:7s;--s:6px"></div>
+      <div class="cake-particle" style="--x:50%;--y:10%;--d:9s;--s:4px"></div>
+    </div>
+    <div class="cake-container">
+      <h2 class="cake-heading">Make a Wish! 🎂</h2>
+      <div class="cake-wrapper">
+        <div class="cake-candle" id="cakeCandle">
+          <div class="candle-body"></div>
+          <div class="candle-wick"></div>
+          <div class="candle-flame" id="candleFlame">
+            <div class="flame-inner"></div>
+            <div class="flame-outer"></div>
+          </div>
+<div class="candle-glow" id="candleGlow"></div>
+        </div>
+        <div class="cake-icing">
+          <div class="icing-drip" style="left:10%;height:18px"></div>
+          <div class="icing-drip" style="left:25%;height:12px"></div>
+          <div class="icing-drip" style="left:40%;height:20px"></div>
+          <div class="icing-drip" style="left:55%;height:14px"></div>
+          <div class="icing-drip" style="left:70%;height:22px"></div>
+          <div class="icing-drip" style="left:85%;height:16px"></div>
+        </div>
+        <div class="cake-layer cake-layer-1"></div>
+        <div class="cake-layer cake-layer-2"></div>
+        <div class="cake-layer cake-layer-3"></div>
+        <div class="cake-plate"></div>
+        <div class="cake-deco deco-1"></div>
+        <div class="cake-deco deco-2"></div>
+        <div class="cake-deco deco-3"></div>
+        <div class="cake-deco deco-4"></div>
+        <div class="cake-deco deco-5"></div>
+        <div class="cake-deco deco-6"></div>
+      </div>
+      <div class="floating-lights" id="floatingLights"></div>
+    </div>
+  </section>
+
+  <!-- ===== CELEBRATION PAGE ===== -->
+  <section id="celebration" class="page">
+    <canvas id="fireworksCanvas"></canvas>
+    <canvas id="confettiCanvas"></canvas>
+    <div class="celebration-content">
+      <div class="celebration-balloons" id="balloonsContainer"></div>
+      <div class="celebration-hearts" id="heartsContainer"></div>
+      <div class="celebration-stars" id="starsContainer"></div>
+      <div class="celebration-sparkles" id="sparklesContainer"></div>
+      <h1 class="celebration-title">Happy Birthday</h1>
+      <h2 class="celebration-name">Richa Mukherjee</h2>
+      <p class="celebration-wish">Wishing you a day filled with love, joy, and beautiful moments ✨</p>
+      <button class="replay-btn" id="replayBtn">🎬 Watch Again</button>
+    </div>
+  </section>
+
+  <!-- ===== AUDIO ===== -->
+  <audio id="bgMusic" loop preload="auto">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
