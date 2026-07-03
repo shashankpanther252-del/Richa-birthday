@@ -73,7 +73,7 @@ function transitionToPage(targetId) {
       });  
     });
 
-  }, 600);}
+  }, 600);
 
   // Stop gallery timer if leaving gallery
   if (targetId !== 'gallery' && state.galleryTimer) {
