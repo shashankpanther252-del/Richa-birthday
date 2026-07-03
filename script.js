@@ -189,9 +189,12 @@ function advanceGallery() {
       state.galleryTimer = null;
     }
     setTimeout(() => {
-      transitionToPage('letter');
-      startTypewriter();
-    }, 500);
+  transitionToPage('letter');
+
+  setTimeout(() => {
+    startTypewriter();
+  }, 700);
+}, 500);
   }
 }
 
